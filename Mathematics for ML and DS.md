@@ -53,11 +53,13 @@ When determining if an equation is singular or non-singular, **we can set the co
 
 ### Linear dependence and independence ###
 Below: row 1 + row 2 = row 3, therefore row 3 **depends** on rows 1 and 2. This means that this system is **linearly dependent**.
+
 $$
     a=1\\
     b=2\\
     a+b=3\\
 $$
+
 $$
     \begin{bmatrix}
     1 & 0 & 0\\
@@ -65,12 +67,15 @@ $$
     1 & 1 & 0
     \end{bmatrix}
 $$
+
 Below: no relations can be found between the rows. This means that this system is **linearly independent**.
+
 $$
     a+b+c=0\\
     a+2b+c=0\\
     a+b+2c=0\\
 $$
+
 $$
     \begin{bmatrix}
     1 & 1 & 1\\
@@ -78,20 +83,25 @@ $$
     1 & 1 & 2
     \end{bmatrix}
 $$
+
 ### Determinant ###
 In a matrix of form:
+
 $$
     \begin{bmatrix}
     a & b \\
     c & d
     \end{bmatrix}
 $$
+
 the determinant is defined as:
+
 $$ad-bc$$
 
 * The determinant is 0 if the matrix is singular, and non-zero if the matrix is non-singular.
 
 In a large matrix:
+
 $$
     \begin{bmatrix}
     1 & 2 & 3 \\
@@ -99,6 +109,7 @@ $$
     7 & 8 & 9
     \end{bmatrix}
 $$
+
 $$
     (\begin{bmatrix}
     1 &  &  \\
@@ -131,14 +142,9 @@ $$
      &  & 9
     \end{bmatrix})\\
 $$
+
 $$
-    ((1*5*9)+     
-    (2*6*7)+     
-    (3*4*8)) - 
-    ((7*5*3) +     
-    (8*6*1) +     
-    (9*4*2))
-    
+    ((1\times5\times9) + (2\times6\times7) + (3\times4\times8)) - ((7\times5\times3) + (8\times6\times1) + (9\times4\times2))
 $$
 
 ## 1.2. Week 2: Solving systems of linear equations
